@@ -1,0 +1,161 @@
+20170614-045144:179#1   #PlatformTestTool              #INFO #[ConnectionProperties] list of excluded folder is : [templates, AT-group, semi-auto_HMI, semi-auto_Others, newComponent]
+20170614-045145:196#2   #PlatformTestTool              #INFO #CommandHeaderTask task has been loaded.
+20170614-045145:204#3   #PlatformTestTool              #INFO #CommentTask task has been loaded.
+20170614-045145:242#4   #PlatformTestTool              #INFO #FileReceiverTask task has been loaded.
+20170614-045145:306#5   #PlatformTestTool              #INFO #ReceiverHeaderTask task has been loaded.
+20170614-045145:342#6   #PlatformTestTool              #INFO #[SerialTask] getXmlTaskContent()
+20170614-045145:343#7   #PlatformTestTool              #INFO #SerialTask task has been loaded.
+20170614-045145:408#8   #PlatformTestTool              #INFO #SshTaskInternal task has been loaded.
+20170614-045145:437#9   #PlatformTestTool              #INFO #TftpTask task has been loaded.
+20170614-045145:529#10  #PlatformTestTool              #INFO #CommandTask task has been loaded.
+20170614-045145:606#11  #PlatformTestTool              #INFO #[EnablingToolTask.getXmlTaskContent] EnablingToolTask '0 - null - null - null - false'.
+20170614-045145:607#12  #PlatformTestTool              #INFO #EnablingToolTask task has been loaded.
+20170614-045145:835#13  #PlatformTestTool              #INFO #ManualTask task has been loaded.
+20170614-045145:881#14  #PlatformTestTool              #INFO #ReceiverTask task has been loaded.
+20170614-045145:938#15  #PlatformTestTool              #INFO #Rs232Task task has been loaded.
+20170614-045146:021#16  #PlatformTestTool              #INFO #ScenarioTask task has been loaded.
+20170614-045146:051#17  #PlatformTestTool              #INFO #ScriptTask task has been loaded.
+20170614-045146:086#18  #PlatformTestTool              #INFO #[TimerTask.getXmlTaskContent] TimerTask 'DEFAULT_ID - Start - -1 - -1 - -1'.
+20170614-045146:087#19  #PlatformTestTool              #INFO #TimerTask task has been loaded.
+20170614-045146:172#20  #PlatformTestTool              #INFO #UdpTask task has been loaded.
+20170614-045146:196#21  #PlatformTestTool              #INFO #[ConnectionProperties] list of excluded folder is : [templates, AT-group, semi-auto_HMI, semi-auto_Others, newComponent]
+20170614-045146:196#22  #PlatformTestTool              #INFO #[ScenarioManager] creating /usr/applications/platformtesttool-aib_new/workspace/scenarii
+20170614-045146:197#23  #PlatformTestTool              #INFO #[ScenarioManager] creating /usr/applications/platformtesttool-aib_new/workspace/script
+20170614-045146:550#24  #PlatformTestTool              #INFO #[SshTaskManager] Initialize the list of connection with the configuration file.
+20170614-045146:550#25  #PlatformTestTool              #INFO #[SshTaskManager] Initialize the list of connection with the configuration file => Terminated.
+20170614-045146:557#26  #PlatformTestTool              #INFO #[Rs232Manager] Initialize the list of command with the configuration file.
+20170614-045146:558#27  #PlatformTestTool              #INFO #[Rs232Manager] Initialize the list of command with the configuration file => Terminated.
+20170614-045146:562#28  #PlatformTestTool              #INFO #[Scenario] Loading some information for scenario Call_MCA_TEMPLATE.xml
+20170614-045146:568#29  #PlatformTestTool              #INFO #[ScenarioAccessDataManager] Load full scenario (unmarshall) from file 'Call_MCA_TEMPLATE.xml'
+20170614-045146:609#30  #PlatformTestTool              #INFO #[CLIScenarioRunner] Playing Scenario 'Call_MCA_TEMPLATE.xml'...
+20170614-045146:610#31  #PlatformTestTool              #INFO #[ScenarioRunner] scenario Result are expected
+20170614-045146:675#32  #PlatformTestTool              #INFO #[ScenarioTask] remaining memory is : 70216344
+20170614-045146:675#33  #PlatformTestTool              #INFO #[ScenarioTask] total memory is : 110624768
+20170614-045146:676#34  #PlatformTestTool              #INFO #[ScenarioTask] max memory is : 238616576
+20170614-045146:793#35  #PlatformTestTool              #INFO #[CLIScenarioRunner] Scenario 'Call_MCA_TEMPLATE.xml' completed, start check result...
+20170614-045146:794#36  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] STARTING SCENARIO Call_MCA_TEMPLATE.xml: configure execution context.
+20170614-045146:795#37  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario Call_MCA_TEMPLATE.xml: report configured
+20170614-045146:802#38  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario Call_MCA_TEMPLATE.xml: execution list build.
+20170614-045146:802#39  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario Call_MCA_TEMPLATE.xml: task execution start.
+20170614-045146:803#40  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] start execution of task 0 of scenario Call_MCA_TEMPLATE.xml
+20170614-045146:827#41  #PlatformTestTool              #INFO #[Scenario] Loading some information for scenario 
+20170614-045146:857#42  #PlatformTestTool              #INFO #[ScenarioRunner] scenario Result are expected
+20170614-045146:926#43  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] STARTING SCENARIO MCA_TEMPLATE.xml: configure execution context.
+20170614-045146:926#44  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario MCA_TEMPLATE.xml: report configured
+20170614-045146:928#45  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario MCA_TEMPLATE.xml: execution list build.
+20170614-045146:928#46  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario MCA_TEMPLATE.xml: task execution start.
+20170614-045146:928#47  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] start execution of task 0 of scenario MCA_TEMPLATE.xml
+20170614-045146:930#48  #PlatformTestTool              #INFO #Executing script task ...
+20170614-045146:931#49  #PlatformTestTool              #INFO #Executing file /usr/applications/platformtesttool-aib_new/workspace/script/CreateFileForExport.sh in directory /usr/applications/platformtesttool-aib_new/workspace/script in mode wait ? true with args : [MCA0614045143FN15710FP13, 20, k]
+20170614-045146:932#50  #PlatformTestTool              #INFO #[ScriptTask] process builder launched
+20170614-045146:933#51  #PlatformTestTool              #INFO #[ScriptTask] stream loader launched
+20170614-045146:938#52  #PlatformTestTool              #INFO #[ScriptTask] process execution complete 0
+20170614-045146:938#53  #PlatformTestTool              #INFO #[ScriptTask] input & error Reader killing ...
+20170614-045146:938#54  #PlatformTestTool              #INFO #[ScriptTask] input & error Reader killed ...
+20170614-045146:939#55  #PlatformTestTool              #INFO #Script task completed
+20170614-045147:132#56  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] start execution of task 1 of scenario MCA_TEMPLATE.xml
+20170614-045147:135#57  #PlatformTestTool              #INFO #Executing Ssh task ...
+20170614-045147:136#58  #PlatformTestTool              #WARN #[SshTaskInternal] Loading connection .VPU102
+20170614-045147:620#59  #PlatformTestTool              #INFO #executeSsh() setTaskStatus(IN_PROGRESS)
+20170614-045147:673#60  #PlatformTestTool              #INFO # The remote Path is not specified
+20170614-045147:895#61  #PlatformTestTool              #INFO #copy from $WORKING_DIR/data/MCA0614045143FN15710FP13 to /usr/applications/mca/mca-bin/current/install//export/MCA.AircraftPFR/MCA0614045143FN15710FP13completedl
+20170614-045147:999#62  #PlatformTestTool              #INFO #[ScenarioRunnerImpl] start execution of task 2 of scenario MCA_TEMPLATE.xml
+20170614-045148:018#63  #PlatformTestTool              #INFO #[AbstractConnectionManager] starting connection default ...
+20170614-045148:019#64  #PlatformTestTool              #INFO #[AbstractConnectionManager] configuration found for default
+20170614-045148:066#65  #PlatformTestTool              #INFO #Connection:amqp://guest:********@default/QPID?brokerlist='tcp://172.20.100.1:5672?connectdelay='5000'&connecttimeout='500'&retries='1000000''&failover='singlebroker'
+20170614-045148:315#66  #PlatformTestTool              #INFO #Using ProtocolVersion for Session:0-10
+20170614-045148:332#67  #PlatformTestTool              #INFO #New Method Dispatcher:AMQProtocolSession[null]
+20170614-045148:339#68  #PlatformTestTool              #INFO #Connecting with ProtocolHandler Version:0-10
+20170614-045148:405#69  #PlatformTestTool              #INFO #Additional SASL providers successfully registered.
+20170614-045148:408#70  #PlatformTestTool              #INFO #Callback handlers available for SASL mechanisms: [EXTERNAL, GSSAPI, CRAM-MD5-HASHED, CRAM-MD5, AMQPLAIN, PLAIN, ANONYMOUS]
+20170614-045148:419#71  #PlatformTestTool              #INFO #Connected with ProtocolHandler Version:0-10
+20170614-045148:420#72  #PlatformTestTool              #INFO #'default' connection has been started.
+20170614-045148:420#73  #PlatformTestTool              #INFO #[AMQPConnectionManager] Creating session for the connection 'default'.
+20170614-045148:447#74  #PlatformTestTool              #INFO #Created session:org.apache.qpid.client.AMQSession_0_10@5c571c52
+20170614-045148:456#75  #PlatformTestTool              #INFO #[AMQPConnectionManager] Session created , now register the connection 'default'.
+20170614-045148:457#76  #PlatformTestTool              #INFO #[AMQPConnectionManager] Connection 'default' registered.
+20170614-045148:483#77  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@28e4da4b using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:488#78  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@48b786e6 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:496#79  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@8f98b56 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:500#80  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@372abfb4 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:504#81  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@578fdeb7 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:509#82  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@2666ed4a using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:514#83  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@2f64a8f8 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:518#84  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@79914a16 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:522#85  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@319728b4 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:526#86  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@3b83fe18 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:530#87  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@569ef82e using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:534#88  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@5eb7c06f using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:538#89  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@71bae7fd using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:548#90  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@25d4cd60 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:552#91  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@35f76d07 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:556#92  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@34c42152 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:559#93  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@3867a98e using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:563#94  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@1dacc690 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:567#95  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@3a202728 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:571#96  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@4cde3acc using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:574#97  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@11e64e81 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:577#98  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@272c0055 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:580#99  #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@39c9e08a using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:583#100 #PlatformTestTool              #INFO #MessageProducer org.apache.qpid.client.BasicMessageProducer_0_10@74b4a1a9 using publish mode : ASYNC_PUBLISH_ALL
+20170614-045148:583#101 #PlatformTestTool              #INFO #[CommandTask] sending synchronous command : <command xmlns:x0="http://www.w3.org/2001/XMLSchema" name="sendReport"><sendReport><transactionID>1000</transactionID><flowID>MCA.AircraftPFR</flowID><componentApplicationID>211</componentApplicationID><reportName>MCA0614045143FN15710FP13</reportName><reportClass>Maintenance Operations</reportClass><encryptPayload>false</encryptPayload><compressPayload>false</compressPayload><dataLocation>export/MCA.AircraftPFR/MCA0614045143FN15710FP13</dataLocation></sendReport></command> to destination enm.input
+20170614-045148:614#102 #PlatformTestTool              #INFO #Prefetching delayed existing messages will not flow until requested via receive*() or setML().
+20170614-045148:619#103 #PlatformTestTool              #INFO #[Sender] Send synchrone message to destination enm.input with 'replyTo' queue mca.input
+20170614-045148:647#104 #PlatformTestTool              #INFO #Dispatcher-Channel-0 created
+20170614-045148:648#105 #PlatformTestTool              #INFO #Dispatcher-Channel-0 started
+20170614-045148:650#106 #PlatformTestTool              #INFO #Closing consumer:1[1087771407]
+20170614-045148:685#107 #PlatformTestTool              #INFO #Dispatcher is not null
+20170614-045148:687#108 #PlatformTestTool              #INFO #Rejecting messages from _queue for Consumer tag(1) (PDispatchQ) requeue:true
+20170614-045148:688#109 #PlatformTestTool              #INFO #Checking all messages in _queue for Consumer tag(1)
+20170614-045148:737#110 #PlatformTestTool              #INFO #Closing consumer:1[1087771407]
+20170614-045148:737#111 #PlatformTestTool              #INFO #Dispatcher(913112015)Received a message(93732983)[59] from queue 1 )without a handler - rejecting(requeue)...
+20170614-045148:738#112 #PlatformTestTool              #INFO #[CommandTask] result message is Body:
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><command name="reportStatusUpdate"><reportStatusUpdate><reportID>25988</reportID><reportStatus>Exported</reportStatus></reportStatusUpdate></command>
+JMS Correlation ID: 1497375545728
+JMS timestamp: 1497375545728
+JMS expiration: 0
+JMS priority: 4
+JMS delivery mode: 2
+JMS reply to: null
+JMS Redelivered: false
+JMS Destination: 'mca.input'/None; None
+JMS Type: null
+JMS MessageID: ID:341604fe-0ea2-34de-bbcf-480597d3eb12
+JMS Content-Type: text/plain
+AMQ message number: 50
+Properties:<NONE>
+20170614-045148:739#113 #PlatformTestTool              #INFO #[CommandTask] message received is : <?xml version="1.0" encoding="UTF-8" standalone="yes"?><command name="reportStatusUpdate"><reportStatusUpdate><reportID>25988</reportID><reportStatus>Exported</reportStatus></reportStatusUpdate></command>
+20170614-045148:739#114 #PlatformTestTool              #INFO #[CommandTask] pattern awaited is ? <respond name="sendReportResp"><sendReportResp><transactionID>.*</transactionID><reportID>.*</reportID><status>Accepted</status></sendReportResp></respond>
+20170614-045148:741#115 #PlatformTestTool              #INFO #[CommandTask] is expression matching ? false
+20170614-045148:748#116 #PlatformTestTool              #INFO #[ScenarioRunner] watchDog Interrupted.
+20170614-045148:755#117 #PlatformTestTool              #INFO #[ScenarioTask] remaining memory is : 86974928
+20170614-045148:755#118 #PlatformTestTool              #INFO #[ScenarioTask] total memory is : 105578496
+20170614-045148:755#119 #PlatformTestTool              #INFO #[ScenarioTask] max memory is : 238616576
+20170614-045148:836#120 #PlatformTestTool              #INFO #[ScenarioResultManager]clearing the task execution data
+20170614-045148:887#121 #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario stopped
+20170614-045148:888#122 #PlatformTestTool              #INFO #SCENARIO MCA_TEMPLATE.xml FINISH
+20170614-045148:888#123 #PlatformTestTool              #INFO #[ScenarioRunner] watchDog Interrupted.
+20170614-045148:888#124 #PlatformTestTool              #INFO #Closing session: org.apache.qpid.client.AMQSession_0_10@5c571c52
+20170614-045148:889#125 #PlatformTestTool              #INFO #Dispatcher-Channel-0 thread terminating for channel 0:org.apache.qpid.client.AMQSession_0_10@5c571c52
+20170614-045148:892#126 #PlatformTestTool              #INFO #[AbstractConnectionManager] Closing connection 'default'
+20170614-045148:895#127 #PlatformTestTool              #INFO #[AbstractConnectionManager] 'default' connection has been stopped.
+20170614-045148:895#128 #PlatformTestTool              #INFO #[AbstractConnectionManager] stopping connection thread alive 0
+20170614-045148:895#129 #PlatformTestTool              #INFO #[AbstractConnectionManager] stopping connection alive 1
+20170614-045148:895#130 #PlatformTestTool              #WARN #[AbstractConnectionManager] Force closure of default
+20170614-045148:896#131 #PlatformTestTool              #WARN #[AbstractConnectionManager] Can not stop the connection 
+20170614-045148:899#132 #PlatformTestTool              #INFO #[ScenarioResultManager]clearing the task execution data
+20170614-045148:899#133 #PlatformTestTool              #INFO #[ScenariResultManager] save result ...
+20170614-045148:907#134 #PlatformTestTool              #INFO #[ScenarioResultManager] deleteOldHtmlFiles
+20170614-045148:910#135 #PlatformTestTool              #INFO #[ScenarioResultManager] Delete the old html file '/usr/applications/platformtesttool-aib_new/workspace/scenariiResults/html/Call_MCA_TEMPLATE.xml(0).html'.
+20170614-045148:911#136 #PlatformTestTool              #INFO #[ScenarioResultManager] Delete the old html file '/usr/applications/platformtesttool-aib_new/workspace/scenariiResults/html/Call_MCA_TEMPLATE.xml.html'.
+20170614-045148:913#137 #PlatformTestTool              #INFO #[ScenarioResultManager] createScenarioTaskHtmlExport
+20170614-045148:914#138 #PlatformTestTool              #INFO #[ScenarioResultManager] The DOM element 'Execution' of the ScenarioTask has been founded
+20170614-045148:953#139 #PlatformTestTool              #INFO #[ScenarioResultManager] generateResultFile
+20170614-045149:028#140 #PlatformTestTool              #INFO #[ScenarioRunnerImpl] scenario stopped
+20170614-045149:029#141 #PlatformTestTool              #INFO #SCENARIO Call_MCA_TEMPLATE.xml FINISH
+20170614-045149:827#142 #PlatformTestTool              #INFO #[CLIScenarioRunner] Uncompleted tasks:
+  The task 0 of scenario Call_MCA_TEMPLATE.xml, with the description {} failed ! status is {FAILED} {some task have failed 
+Task Export of 10M has status FAILED and error msg 
+}
+
+20170614-045149:828#143 #PlatformTestTool              #INFO #[CLIScenarioRunner] Check done for Scenario 'Call_MCA_TEMPLATE.xml' : FAILED
